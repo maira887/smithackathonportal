@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="header">
+
+        <h1>Class Details Dashboard</h1>
+
+    <!-- </div>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#" id="home">Home</a></li>
+            <li><a href="#" id="profile">Profile</a></li>
+            <li><a href="#" id="settings">Settings</a></li>
+        </ul> -->
+
+        <!-- .................................................. --><!-- Form to add a new class -->
+    <div id="add-class-form">
+        <!-- <h2>Add a New Class</h2> -->
+        <label for="class-timings">Class Timings:
+            <select name="cars" id="class-timings" required>
+                <option value="9-12">09:00-12:00</option>
+                <option value="1-3">01:00-03:00</option>
+                <option value="4-6">04:00-06:00</option>
+                <option value="8-10">08:00-10:00</option>
+              </select>
+        </label>
+        <!-- <input type="text" id="class-timings" required> -->
+
+        <br>
+        <label for="schedule">Schedule:</label>
+        <select name="schedule" id="schedule" required>
+            <option value="Thursday">Sunday</option>
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Thursday">Friday</option>
+            <option value="Thursday">Saturday</option>
+           
+          </select>
+        <!-- <input type="text" id="schedule" required> -->
+        <br>
+        <label for="teacher-name">Teacher's Name:</label>
+        <!-- <input type="text" id="teacher-name" required> -->
+        <select name="teacher-name" id="teacher-name" required>\
+            <option value="Miss Iqra">Miss Iqra</option>
+            <option value="Miss Tayyaba">Miss Tayyaba</option>
+            <option value="Miss Hina">Miss Hina</option>
+            <option value="Miss Qurat-ul-ain">Miss Qurat-ul-ain</option>
+            <option value="Sir Inzimam">Sir Inzimam</option>
+            <option value="Sir Ishaq">Sir Ishaq</option>
+            <option value="Sir Jaffar">Sir Jaffar</option>
+            <option value="Sir  Sufyan">Sir Sufyan</option>
+            <option value="Sir Ghous">Sir Ghous</option>
+            
+          
+          </select>
+        <br>
+        <label for="section-name">Section Name:</label>
+        <!-- <input type="text" id="section-name" required> -->
+        <select name="section-name" id="section-name" required>
+            <option value="Section A">Section A</option>
+            <option value="Section B">Section B</option>
+            <option value="Section C">Section C</option>
+            <option value="Section D">Section D</option>
+          </select>
+        <br>
+        <label for="course-name">Course Name:</label>
+        <!-- <input type="text" id="course-name" required> -->
+        <select name="course-name" id="course-name" required>
+            <option value="Game Development">Game Development</option>
+            <option value="BlockChain Programming">Web3</option>
+            <option value="web development">web development</option>
+            <option value="Cloud Computing">Cloud Computing</option>
+            <option value="Graphic Designing">Graphic Designing</option>
+          </select>
+        <br>
+        <label for="batch-number">Batch Number:</label>
+        <!-- <input type="text" id="batch-number" required> -->
+        <select name="batch-number" id="batch-number" required>
+            <option value="Batch9">Batch9</option>
+            <option value="Batch8">Batch8</option>
+            <option value="Batch7">Batch7</option>
+            <option value="Batch6">Batch6</option>
+            <option value="Batch5">Batch5</option>
+            <option value="Batch4">Batch4</option>
+            <option value="Batch3">Batch3</option>
+            <option value="Batch2">Batch2</option>
+            <option value="Batch1">Batch1</option>
+          </select>
+        <br>
+        <button onclick="addClass()">Create</button>
+        
+    </div>
+
+    <!-- Table to display class details -->
+    <div id="class-list">
+        <h2>Class List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Class Timings</th>
+                    <th>Schedule</th>
+                    <th>Teacher's Name</th>
+                    <th>Section Name</th>
+                    <th>Course Name</th>
+                    <th>Batch Number</th>
+                </tr>
+            </thead>
+            <tbody id="class-table-body">
+                <!-- Class details will be displayed here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
+
+    </div>
+    <div class="content">
+        <!-- ///////////////////////////////////////////////////////////////////// -->
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- ---------------------------------------------------------------------------------------- -->
+

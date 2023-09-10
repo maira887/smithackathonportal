@@ -1,0 +1,128 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5e3131;
+}
+label{
+    font-family: 'Noto Sans Symbols', sans-serif;
+    padding: 50px;
+}
+select{
+    font-style: 'Noto Sans Symbols', sans-serif;
+    padding: 20px;
+    margin-bottom: 10px;
+    
+    
+}
+
+
+#add-class-form{
+    background-color: #badff8;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    border: double;
+    text-align: center;
+    
+}
+h1 {
+    text-align: center;
+    align-items: center;
+    font-style: italic;
+}
+#class-timings{
+   
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    border: double;
+  
+}
+
+#schedule{
+   
+    background-color: #f3f3f3;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    border: double;
+    
+}
+
+#teacher-name{
+   
+    background-color: #f3f3f3;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    border: double;}
+
+#course-name{
+   
+    background-color: #f3f3f3;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    border: double;
+}
+
+#section-name{
+   
+background-color: #f3f3f3;
+text-align: center;
+font-size: 22px;
+font-family: 'Open Sans', sans-serif;
+border: double;}
+#batch-number{
+  
+    background-color: #f3f3f3;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    border: double;
+}
+
+#add-class-form {
+   
+}
+
+#class-list {
+    margin: 20px;
+    background-color: #457fa0;
+    font-style: italic;
+    font-family: sans-serif;
+    
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #add7da;
+    border: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #4c96af;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
